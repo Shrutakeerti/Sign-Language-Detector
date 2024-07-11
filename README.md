@@ -15,20 +15,17 @@ The model is trained on the ASL dataset, which includes a variety of hand gestur
 Usage
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/your-username/sign-language-detector.git
 cd sign-language-detector
 Install dependencies:
 
 bash
-Copy code
 pip install -r requirements.txt
 Run the application:
 
 bash
-Copy code
 python app.py
+
 Open your browser:
 Open http://localhost:5000 to view the application.
 
