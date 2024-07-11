@@ -1,0 +1,14 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Language Detector</title>
+  </head>
+  <body>
+    <h1>Sign Language Detector</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" />
+      <input type="submit" value="Upload and Predict" />
+    </form>
+  </body>
+</html>
